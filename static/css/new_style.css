@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --primary-text-color: #244768;
+   --secondary-text-color : #577592;
+   --accent-color: #2294ed;
+   --accent-color-dark: #1d69a3;
+   --padding-inline-section: 80px;
+   --white : #ffffff;
+}
+
+body {
+   font-family: 'Poppins',sans-serif;
+   color : var(--primary-text-color);
+}
+h1 {
+   font-size : 3rem;
+}
+
+h2{
+   font-size: 2rem;
+   font-weight: 500;
+}
+
+h3{
+   font-size: 1.2rem;
+   font-weight: 600
+   ;
+}
+
+p{
+   font-family: 'Roboto', sans-serif;
+   font-size : 1.0rem;
+   color: var(--secondary-text-color);
+   line-height: 1.8rem;
+}
+
+ul{
+   list-style: none;   
+}
+
+header {
+   padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section{
+   justify-content: center;
+   gap: 50px;
+}
+
+.header-right img {
+   width: 500px;
+}
+
+.header-left {
+   max-width: 40vw0;
+}
+
+.header-left h1 {
+   margin-top: 20px;
+}
+
+.get-started-btn {
+   margin-top : 20px;
+}
+
+/* asked from chat gpt to remove underline form hyperlinks*/
+nav .nav-links ul li a {
+   text-decoration: none;
+ }
+ 
+
+.flex {
+   display: flex;
+   align-items: center;
+}
+
+.small-bold-text {
+   font-size: 1rem ;
+   font-weight: 500;
+   color: var( --primary-text-color);
+}
+.small-bold-text-top-banner{
+  font-size: 1rem ;
+   font-weight: 500;
+   color: var( --white);
+}
+
+.container {
+   max-width: 1180 px ; 
+   margin-inline: auto ;
+   padding-inline: var(--padding-inline-section);
+}
+
+.top-banner {
+   background-image: url('/static/assets/asset\ 32.png');
+   background-color:#2294ed;
+   background-size: 300px;
+   height: 40px;
+}
+
+.company-logo img {
+   width: 80px;
+}
+
+.main-nav {
+   margin-top: 10px ;
+   justify-content: space-between ;
+}
+
+.nav-links {
+   flex-basis: 730px;
+}
+
+.nav-links ul {
+   justify-content:end ;
+   gap: 40px;
+}
+
+.hover-links {
+   color : var(--primary-text-color)
+   
+}
+
+.hover-links:hover {
+   color: var(--accent-color);
+}
+
+.primary {
+   display: inline-block;
+   padding: 10px 20px; /* Adjust the padding to your desired button size */
+   background-color:var( --accent-color-dark); /* Light blue color */
+   color: #fff; /* Text color */
+   border: none;
+   border-radius: 5px; /* Curved edges */
+   text-decoration: none;
+   font-weight: bold; /* Bold text */
+   text-align: center;
+   cursor: pointer;
+ }
+
+
+ 
+ /* Hover effect */
+ .primary:hover {
+   background-color:var(--primary-text-color); /* Darker blue on hover */
+ }
+
+ .centre-align {
+   text-align: center;
+   margin-top: 50px;
+ }
+
+ /* tech used section */
+
+ .features-header {
+  text-align:center;
+  margin-top: 50px;
+ }
+
+ .secondary {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust the padding to your desired button size */
+  background-color: transparent; /* Transparent background */
+  color: var(--accent-color-dark); /* Text color */
+  border: 2px solid var(--accent-color-dark); /* Blue border */
+  border-radius: 5px; /* Curved edges */
+  text-decoration: none;
+  font-weight: lighter; /* Bold text */
+  text-align: center;
+  cursor: pointer;
+}
+.secondary:hover {
+  background-color:var(--primary-text-color); /* Darker blue on hover */
+}
+.tech-area {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap : 40px;
+  margin-top: 20px;
+  max-width: 1200px;
+}
+.tech-card{
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+}
+
+.Image-Feature {
+  width: 30%;
+}
+
+.tech-section {
+  padding: 80px var(--padding-inline-section) 0;
+  background-image: url(/static/assets/asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.featuress {
+  margin-top: 50px;
+}
+
+/* footer */
+.footer-background {
+  background-color: #0A3D6B; /* Dark blue background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add padding for spacing */
+  background-image: url('/static/assets/asset\ 32.png');
+}

@@ -42,7 +42,7 @@ def eye_aspect_ratio(eye):
 # login check page
 @app.route('/')
 def home():
-    return render_template("2.html")
+    return render_template("new_2.html")
 
 @app.route('/start', methods=['GET', 'POST'])
 def start():

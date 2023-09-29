@@ -30,7 +30,7 @@ h1, p {
 }
 
 #section1 {
-	background:url(../images/1.jpg	);
+	background:url(../images/artistic-blurry-colorful-wallpaper-background.jpg	);
 }
 
 #section2 {
@@ -73,19 +73,19 @@ h1 {
 }
 nav{ float:right;}
 .nav a {
-	padding: 7px 20px;
+	padding: 10px 30px;
 	border-radius: 7px;
-	margin-right: 10px;
-	background: rgba(255, 255, 255, 0.5);
+	margin-right: 15px;
+	background: rgba(0, 0, 0, 0);
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-ms-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	text-decoration: none;
-	color: black;
-	font-family: sans-serif, arial;
-	font-weight: 100;
+	color: rgb(255, 255, 255);
+	font-family:  Arial, Helvetica, sans-serif;
+	
 }
 
 .nav a.active {
@@ -267,4 +267,9 @@ transition: all ease-in-out .5s;}
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.app {
+    background: linear-gradient(to right, #6d6d6d, #000000); /* Define the gradient colors and direction for the text */
+    -webkit-background-clip: text; /* Apply the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the text transparent so the gradient shows through */
 }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="/static/css/new_style.css">
+</head>
+<body>
+    <!-- Top banner-->
+    <div class="top-banner flex">
+        <div class="container">
+            <div class="small-bold-text-top-banner">Safeguarding Lives, One Wink at a Time</div>
+        </div>
+    </div>
+    <!-- NAV - BAR--> 
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="/static/assets/shield_blue_gradient_with_check_and_without.png" alt="company logo">
+            </a>
+            <div class="nav-links">
+                <ul class="flex ">
+                    <li><a href="#section1" class="hover-links">Home</a></li>
+                    <li><a href="#section2" class="hover-links">Technology Used</a></li>
+                    <li><a href="#section3" class="hover-links">Features</a></li>
+                    <li><a href="#section4" class="hover-links">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--- INtro -> 1. start detection 2. driving art photo-->
+    <header id="section1" >
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1>Real Time Drowsiness Detection</h1>
+                <p>Introducing our cutting-edge Real-Time Drowsiness Detection Application, a revolutionary solution designed to safeguard lives on the road. With the power of computer vision and advanced algorithms, our application ensures that drivers stay awake, alert, and focused during their journeys, making roads safer for everyone.</p>
+                <a href="/start" , method="POST", class="primary get-started-btn" value="Submit">Start Detection</a>
+            </div>
+            <div class="header-right">
+                <img src="/static/assets/38961468.jpg" alt="hero">
+            </div>
+        </div>
+    </header>
+    
+    <!-- just a random slogan-->
+    <div class="small-bold-text centre-align">"Cutting-Edge Real Time Drowsiness Detection Program Achieves upto 90% Accuracy Rate"</div>
+     
+    <!-- Tech used section-->
+    <section id="section2" class="tech-section container" >
+        <div class="container">
+            <div class="features-header">
+                <h2>Technology Used</h2>
+                <a href="#" class="secondary get-started-btn">See all the features<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="tech-area flex container">
+            <div class="tech-card">
+                <img src="/static/assets/logo/icons8-python-48.png" alt="python" class="Image-Feature">
+                <h3>Python</h3>
+                <p>Python is a versatile and high-level programming language known for its simplicity and readability. </p>
+                <a href="https://www.python.org/" class="secondary get-started-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="tech-card">
+                <img src="/static/assets/logo/dlib-logo.png" alt="dlib" class="Image-Feature">
+                <h3>Dlib C++ Library</h3>
+                <p> powerful open-source toolkit for machine learning, computer vision, and deep learning applications </p>
+                <a href="http://dlib.net/" class="secondary get-started-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="tech-card">
+                <img src="/static/assets/logo/en-flask-logo.jpg" alt="Flask" class="Image-Feature">
+                <h3>Flask</h3>
+                <p>Flask is a lightweight Python web framework known for its simplicity and flexibility, making it an excellent choice for developing web applications </p>
+                <a href="https://flask.palletsprojects.com/en/2.3.x/" class="secondary get-started-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="tech-card">
+                <img src="/static/assets/logo/icons8-opencv-48.png" alt="OpenCV" class="Image-Feature">
+                <h3>OpenCV</h3>
+                <p> Open Source Computer Vision Library, is a popular and powerful open-source computer vision and machine learning software library. </p>
+                <a href="https://opencv.org/" class="secondary get-started-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="tech-card">
+                <img src="/static/assets/logo/logo-small.2a411bc6.svg" alt="imutils" class="Image-Feature">
+                <h3>imutils</h3>
+                <p>imutils is a Python library designed to simplify common computer vision tasks by providing a collection of convenience functions. </p>
+                <a href="https://www.python.org/" class="secondary get-started-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="tech-card">
+                <img src="/static/assets/logo/icons8-css-50.png" alt="CSS" class="Image-Feature">
+                <h3>CSS</h3>
+                <p>Cascading Style Sheets, is a stylesheet language used for describing the presentation and formatting of web documents, including HTML.  </p>
+                <a href="https://www.w3schools.com/css/css_website_layout.asp" class="secondary get-started-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section> 
+
+    <!-- features container -->
+    <section id="section3">
+        <div class="small-bold-text centre-align">""Vigilance in Every Blink: Empowering Safe Journeys with Real-Time Drowsiness Detection.""</div>
+        <div class="features-header">
+            <h2>Features</h2>
+        </div>
+        <section class="container featuress">
+            <div class="container header-section ">
+                <div class="header-left flex">
+                    <p>This system is drowsiness detection system for automobile. Driver drowsiness will be determined from several symptoms that manifest in drowsy driver’s face. Through analysis of the eye states, the system will be able to tell a drowsy driver from a normal driver.
+                    
+                        A video stream will be continuously obtained from the driver’s faces and feed into a microcontroller for processing. Classifiers will then be used to classify the state of the driver’s eye. If a drowsy driver is detected an alarm will be raised, until the system notices the driver is alert.
+                        
+                        Development of the system was through agile methodology where the scrum and the extreme programming method were combined. The system was broken into small modules, these modules were developed independently and tested integration was done. During unit, testing refactoring was adopted in order to optimize the units for their intended purpose.</p>
+                    
+                <div class="header-right flex">
+                    <img src="/static/assets/best_101.png" alt="hero" class="Image-Feature">
+                </div>
+            </div>
+        </section>
+    
+        <header >
+            <div class="container header-section flex">
+                <div class="header-right">
+                    <img src="/static/assets/cartoon sleep detector.jpg" alt="hero">
+                </div>
+                <div class="header-left">
+                    
+                    <p>The main reason for motor vehicular accidents is the driver drowsiness. This work shows a surveillance system developed to detect and alert the vehicle driver about the presence of drowsiness. It uses a smartphone like small computer with a mobile application using Android operating system to implement the Human Computer Interaction System. For the detection of drowsiness, the most relevant visual indicators that reflect the driver’s condition are the behavior of the eyes, the lateral and frontal assent of the head and the yawn.
+                    
+                        The system works adequately under natural lighting conditions and no matter the use of driver accessories like glasses, hearing aids or a cap. Due to a large number of traffic accidents when driver has fallen asleep this proposal was developed in order to prevent them by providing a non-invasive system, easy to use and without the necessity of purchasing specialized devices. The method gets 90% of drowsiness detection.</p>
+                    
+                </div>
+            
+            </div>
+        </header>
+    </section>
+    <!-- Building the footer section now  -->
+
+    <section id="section4">
+        <footer class="footer-background">
+            <div class="features-header">
+                <h2>About Us</h2>
+            </div>
+            <div class="centre-align">My name is Himank Singh.I am an undergraduate engineering student at Maharaja Surajmal Institute of Technology, and I am passionate about technology and innovation. This project represents my dedication and skills, showcasing my ability to tackle real-world problems and contribute to my field.</div>
+        </footer>
+    </section>
+    
+
+
+
+
+
+
+    <!-- just importing kit fontawesome -->
+    <script src="https://kit.fontawesome.com/36e347b839.js" crossorigin="anonymous"></script>
+</body>
+</html>
