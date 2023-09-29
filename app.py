@@ -161,4 +161,4 @@ def start():
     return render_template("1.html")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug = False,host='0.0.0.0') # so the website is visible publicly
